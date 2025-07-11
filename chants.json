@@ -1,0 +1,22 @@
+[
+  {
+    "id": "metta",
+    "title": "บทแผ่เมตตา",
+    "purpose": ["แผ่เมตตา", "คลายโกรธ", "สร้างความสงบ"],
+    "language": ["th", "en"],
+    "content": {
+      "th": "สัพเพ สัตตา อะเวรา โหนตุ...",
+      "en": "May all beings be free from enmity..."
+    }
+  },
+  {
+    "id": "sleep",
+    "title": "บทสวดก่อนนอน",
+    "purpose": ["ก่อนนอน", "ผ่อนคลาย", "ลดความกังวล"],
+    "language": ["th", "en"],
+    "content": {
+      "th": "อะระหัง สัมมาสัมพุทโธ ภะคะวา...",
+      "en": "The Blessed One is Worthy and Rightly Self-awakened..."
+    }
+  }
+]

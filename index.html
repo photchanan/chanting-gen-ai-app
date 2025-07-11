@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Chanting GenAI App</title>
+  <style>
+    body { font-family: sans-serif; padding: 20px; background: #f3f3f3; }
+    textarea, input, button { width: 100%; padding: 10px; font-size: 1rem; margin-bottom: 10px; }
+    button { background-color: #4CAF50; color: white; border: none; cursor: pointer; }
+    button:hover { background-color: #45a049; }
+    #aiSuggestion, #chantContainer { background: white; padding: 15px; border-radius: 5px; margin-top: 20px; }
+    ul { list-style: none; padding: 0; }
+    li { background: white; padding: 10px; margin-bottom: 5px; border-radius: 5px; cursor: pointer; }
+    li:hover { background: #e0f7fa; }
+  </style>
+</head>
+<body>
+  <h2>ค้นหาบทสวดจากจุดประสงค์</h2>
+  <input type="text" id="purposeSearch" placeholder="พิมพ์ เช่น แผ่เมตตา, ผ่อนคลาย, ก่อนนอน">
+  <ul id="chantResults"></ul>
+
+  <div id="chantContainer"></div>
+
+  <h2>แนะนำบทสวดจากความรู้สึกของคุณ</h2>
+  <textarea id="feelingInput" rows="3" placeholder="พิมพ์ความรู้สึก เช่น รู้สึกเครียด เหงา ไม่มีสมาธิ..."></textarea>
+  <button onclick="getChantSuggestion()">ขอคำแนะนำ</button>
+  <div id="aiSuggestion"></div>
+
+  <script src="script.js"></script>
+</body>
+</html>
